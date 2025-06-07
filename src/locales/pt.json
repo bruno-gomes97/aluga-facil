@@ -1,0 +1,9 @@
+{
+	"email": "Email",
+	"password": "Senha",
+	"forgotPassword": "Esqueceu sua senha?",
+	"noAccountPrompt": "Não tem uma conta?",
+	"creatAccount": "Criar uma conta",
+	"welcomeBack": "Bem-vindo de volta",
+	"login": "Login"
+}

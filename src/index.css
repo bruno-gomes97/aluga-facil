@@ -1,12 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  --color-button-primary: "#1A78E5";
-  --color-text-primary: "#121417";
-  --color-border-primary: "#DBE0E5";
-  --color-button-secundary: "#F0F2F5";
-  --color-backgroung-page: "#FFFFFF";
-  --color-placheholder-input: "#637387";
+  --color-button-primary: #1A78E5;
+  --color-text-primary: #121417;
+  --color-text-secondary: #FFFFFF;
+  --color-border-primary: #DBE0E5;
+  --color-button-secundary: #F0F2F5;
+  --color-backgroung-page: #FFFFFF;
+  --color-placheholder-input: #637387;
   --spacing-4px: 0.25rem;
   --spacing-8px: 0.5rem;
   --spacing-12px: 0.75rem;
@@ -35,4 +36,22 @@
   --font-size-64px: 4rem;
   --font-size-72px: 4.5rem;
   --font-size-80px: 5rem;
+  --radius-none: 0;
+  --radius-xs: 0.125rem;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-full: 9999px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-backgroung-page);
 }
