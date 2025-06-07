@@ -1,10 +1,13 @@
+import Header from "./components/header/Header"
+import Login from "./page/login/Login"
+
 function App() {
 
   return (
     <div>
-      <h1>teste</h1>
+      <Header />
+      <Login />
     </div>
-
   )
 }
 
