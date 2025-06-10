@@ -5,5 +5,15 @@
 	"noAccountPrompt": "Não tem uma conta?",
 	"creatAccount": "Criar uma conta",
 	"welcomeBack": "Bem-vindo de volta",
-	"login": "Login"
+	"login": "Login",
+	"fullname": "Nome completo",
+	"phone": "Telefone",
+	"confirmPassword": "Confirmar senha",
+	"placeholderFullName": "Digite seu nome completo",
+	"placeholderPassword": "Digite sua senha",
+	"placeholderEmail": "Digite seu email",
+	"placeholderPhoneNumber": "Digite seu número de telefone",
+	"placeholderConfirmPassword": "Confirme sua senha",
+	"register": "Registrar",
+	"alreadyHaveAccount": "Já possui uma conta?"
 }

@@ -33,7 +33,7 @@ const Login = () => {
 			<Styles.Container>
 				<Styles.Link href='#'>{t("forgotPassword")}</Styles.Link>
 				<Styles.Paragraph>
-					{t("noAccountPrompt")} <Styles.Link>{t("creatAccount")}</Styles.Link>
+					{t("noAccountPrompt")} <Styles.Link href={"/register"}>{t("creatAccount")}</Styles.Link>
 				</Styles.Paragraph>
 			</Styles.Container>
 		</div>
