@@ -1,0 +1,25 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "fullname": "Bruno Gomes",
+      "email": "bruno@email.com",
+      "phoneNumber": "51983363606",
+      "password": "ADMIN123"
+    },
+    {
+      "id": "ef6b",
+      "fullname": "John Doe",
+      "email": "john@email.com",
+      "phoneNumber": "51992200006",
+      "password": "ADMIN123"
+    },
+    {
+      "id": "b66f",
+      "fullname": "Juliana Walter",
+      "email": "juliana@email.com",
+      "phone": "51984969768",
+      "password": "ADMIN123"
+    }
+  ]
+}
