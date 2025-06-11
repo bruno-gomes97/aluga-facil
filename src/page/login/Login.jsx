@@ -1,18 +1,43 @@
+import { useContext, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { GlobalContext } from '../../context/GlobalContext';
 import * as Styles from './Style';
 
 const Login = () => {
 	const { t } = useTranslation();
+	const users = useContext(GlobalContext);
+
+	const [ email, setEmail ] = useState("");
+	const [ password, setPassword ] = useState("");
+	
+	const handleOnSubmit = (e) => {
+		e.preventDefault();
+
+		if (!users) return;
+
+		const foundUser = users.find(
+			(userItem) => userItem.password === password && userItem.email === email
+		);
+
+		if(foundUser) {
+			window.location.href = '/dashboard';
+		} else{
+			alert("Usuário ou senha inválidos.");
+		}
+
+	}
 
 	return (
 		<div>
 			<Styles.Title>{t("welcomeBack")}</Styles.Title>
-			<Styles.FormContainer>
+			<Styles.FormContainer onSubmit={handleOnSubmit}>
 				<Styles.ContainerInput>
 					<Styles.Label>{t("email")}</Styles.Label>
 					<Styles.Input 
 						type="text"
 						placeholder={t("email")}
+						value={email}
+						onChange={(e) => setEmail(e.target.value)}
 						required
 					/>
 				</Styles.ContainerInput>
@@ -21,6 +46,8 @@ const Login = () => {
 					<Styles.Input 
 						type="password"
 						placeholder={t("password")}
+						value={password}
+						onChange={(e) => setPassword(e.target.value)}
 						required
 					/>
 				</Styles.ContainerInput>
