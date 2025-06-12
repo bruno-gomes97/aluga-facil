@@ -3,12 +3,9 @@ import { useTranslation } from 'react-i18next';
 import { GlobalContext } from '../../../context/GlobalContext';
 import * as Styles from './Style';
 
-
 const RecentActivity = () => {
 	const { t } = useTranslation();
 	const { vehicles, rentals } = useContext(GlobalContext);
-
-	if(!vehicles && !rentals) return;
 
 	return (
 		<Styles.Container>
@@ -21,11 +18,8 @@ const RecentActivity = () => {
 					<Styles.TableCell>{t("status")}</Styles.TableCell>
 				</Styles.Header>
 				<Styles.Body>
-					{rentals
-					.slice(-3) 
-					.reverse() 
-					.map((rental) => {
-						const vehicle = vehicles.find(v => v.id === rental.vehicleId);
+					{rentals?.slice(-3).reverse().map((rental) => {
+						const vehicle = vehicles?.find(v => v.id === rental.vehicleId);
 
 						return (
 							<Styles.Row key={rental.id}>

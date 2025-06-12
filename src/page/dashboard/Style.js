@@ -1,6 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	height: 100vh;
+`;
+
+export const Main = styled.div`
 	margin: var(--spacing-16px) var(--spacing-24px) var(--spacing-16px) 0;
 	padding: var(--spacing-16px);
 `;

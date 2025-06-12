@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import Asidebar from '../../components/asidebar/Asidebar';
 import * as Styles from './Style';
 import Overview from './overview-container/Overview';
 import QuickActions from './quick-actions/QuickActions';
@@ -9,14 +10,15 @@ const Dashboard = () => {
 	const firstName = localStorage.getItem("user")?.split(" ")[0];
 
 	return (
-		<div>
-			<Styles.Container>
+		<Styles.Container>
+			<Asidebar />
+			<Styles.Main>
 				<Styles.Title>{t("welcomeBack")}, {firstName}</Styles.Title>
 				<Overview />
 				<QuickActions />
 				<RecentActivity />
-			</Styles.Container>
-		</div>
+			</Styles.Main>
+		</Styles.Container>
 	)
 }
 
