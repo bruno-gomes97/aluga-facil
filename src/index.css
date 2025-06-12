@@ -54,4 +54,5 @@
 
 body {
   background-color: var(--color-backgroung-page);
+  height: 100vh;
 }
