@@ -1,12 +1,10 @@
-import { useContext, useState } from "react";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import SignupHeader from "../../components/signupHeader/SignupHeader";
-import { GlobalContext } from "../../context/GlobalContext";
 import * as Styles from "./Style";
 
 const CreateAccount = () => {
 	const { t } = useTranslation();
-	const users = useContext(GlobalContext);
 
 	const [ fullname, setFullname ] = useState("");
 	const [ email, setEmail ] = useState("");

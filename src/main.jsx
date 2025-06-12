@@ -6,6 +6,7 @@ import { GlobalProvider } from './context/GlobalContext.jsx'
 import './i18nify.js'
 import './index.css'
 import CreateAccount from './page/createAccount/CreateAccount.jsx'
+import Dashboard from './page/dashboard/Dashboard.js'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "register",
     element: <CreateAccount />
+  },
+  {
+    path: "dashboard",
+    element: <Dashboard />
   }
 ])
 

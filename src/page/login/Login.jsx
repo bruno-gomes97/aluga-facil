@@ -5,21 +5,19 @@ import * as Styles from './Style';
 
 const Login = () => {
 	const { t } = useTranslation();
-	const users = useContext(GlobalContext);
-
+	const { users } = useContext(GlobalContext);
 	const [ email, setEmail ] = useState("");
 	const [ password, setPassword ] = useState("");
 	
 	const handleOnSubmit = (e) => {
 		e.preventDefault();
 
-		if (!users) return;
-
-		const foundUser = users.find(
+		const foundUser = users?.find(
 			(userItem) => userItem.password === password && userItem.email === email
 		);
 
 		if(foundUser) {
+			localStorage.setItem("user" , foundUser.fullName);
 			window.location.href = '/dashboard';
 		} else{
 			alert("Usuário ou senha inválidos.");
