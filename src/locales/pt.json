@@ -15,5 +15,21 @@
 	"placeholderPhoneNumber": "Digite seu número de telefone",
 	"placeholderConfirmPassword": "Confirme sua senha",
 	"register": "Registrar",
-	"alreadyHaveAccount": "Já possui uma conta?"
+	"alreadyHaveAccount": "Já possui uma conta?",
+	"overview": "Visão geral", 
+	"availableCars": "Carros disponíveis", 
+	"rentedCars": "Carros alugados", 
+	"totalUsers": "Total de usuários", 
+	"quickActions": "Ações rápidas", 
+	"addNewCar": "Adicionar novo carro", 
+	"addCar": "Adicionar carro", 
+	"viewAllCars": "Ver todos os carros", 
+	"recentActivity": "Atividades recentes", 
+	"car": "Carro", 
+	"rentalDate": "Data do aluguel", 
+	"returnDate": "Data de devolução", 
+	"status": "Status", 
+	"active": "Ativo", 
+	"completed": "Concluído", 
+	"helpAndFeedback": "Ajuda e feedback"
 }

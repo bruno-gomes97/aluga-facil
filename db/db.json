@@ -1,25 +1,176 @@
 {
-  "usuarios": [
+  "users": [
     {
       "id": "1",
-      "fullname": "Bruno Gomes",
+      "fullName": "Bruno Gomes",
       "email": "bruno@email.com",
       "phoneNumber": "51983363606",
-      "password": "ADMIN123"
+      "cpf": "12345678900",
+      "password": "ADMIN123",
+      "role": "ADMIN",
+      "salary": 3500.00,
+      "address": {
+        "street": "Av. das Palmeiras",
+        "number": "100",
+        "neighborhood": "Centro",
+        "city": "Porto Alegre",
+        "state": "RS",
+        "postalCode": "90000000"
+      }
     },
     {
-      "id": "ef6b",
-      "fullname": "John Doe",
+      "id": "2",
+      "fullName": "John Doe",
       "email": "john@email.com",
       "phoneNumber": "51992200006",
-      "password": "ADMIN123"
+      "cpf": "98765432100",
+      "password": "CLIENT123",
+      "role": "EMP",
+      "salary": 2800.00,
+      "address": {
+        "street": "Rua das Acácias",
+        "number": "222",
+        "neighborhood": "Bela Vista",
+        "city": "Canoas",
+        "state": "RS",
+        "postalCode": "92000000"
+      }
     },
     {
-      "id": "b66f",
-      "fullname": "Juliana Walter",
+      "id": "3",
+      "fullName": "Juliana Walter",
       "email": "juliana@email.com",
-      "phone": "51984969768",
-      "password": "ADMIN123"
+      "phoneNumber": "51984969768",
+      "cpf": "32165498700",
+      "password": "USER",
+      "role": "customer",
+      "salary": 4500.00,
+      "address": {
+        "street": "Rua do Sol",
+        "number": "77",
+        "neighborhood": "Harmonia",
+        "city": "São Leopoldo",
+        "state": "RS",
+        "postalCode": "93000000"
+      }
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "1",
+      "model": "Toyota Corolla",
+      "brand": "Toyota",
+      "year": 2021,
+      "type": "standard",
+      "color": "black",
+      "licensePlate": "ABC-1234",
+      "status": "available",
+      "dailyRate": 150.00,
+      "imageUrl": "https://via.placeholder.com/300x200"
+    },
+    {
+      "id": "2",
+      "model": "BMW X6",
+      "brand": "BMW",
+      "year": 2022,
+      "type": "luxury",
+      "color": "white",
+      "licensePlate": "XYZ-9876",
+      "status": "available",
+      "dailyRate": 450.00,
+      "imageUrl": "https://via.placeholder.com/300x200"
+    },
+    {
+      "id": "3",
+      "model": "Honda Civic",
+      "brand": "Honda",
+      "year": 2020,
+      "type": "standard",
+      "color": "red",
+      "licensePlate": "DEF-5678",
+      "status": "available",
+      "dailyRate": 140.00,
+      "imageUrl": "https://via.placeholder.com/300x200"
+    },
+    {
+      "id": "4",
+      "model": "Jeep Compass",
+      "brand": "Jeep",
+      "year": 2023,
+      "type": "suv",
+      "color": "gray",
+      "licensePlate": "GHI-9012",
+      "status": "available",
+      "dailyRate": 300.00,
+      "imageUrl": "https://via.placeholder.com/300x200"
+    },
+    {
+      "id": "5",
+      "model": "Fiat Argo",
+      "brand": "Fiat",
+      "year": 2019,
+      "type": "compact",
+      "color": "blue",
+      "licensePlate": "JKL-3456",
+      "status": "available",
+      "dailyRate": 120.00,
+      "imageUrl": "https://via.placeholder.com/300x200"
+    }
+  ],
+  "rentals": [
+    {
+      "id": "1",
+      "userId": "2",
+      "vehicleId": "1",
+      "startDate": "2025-06-10",
+      "endDate": "2025-06-12",
+      "totalPrice": 300.00,
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "userId": "3",
+      "vehicleId": "2",
+      "startDate": "2025-05-20",
+      "endDate": "2025-05-22",
+      "totalPrice": 900.00,
+      "status": "completed"
+    },
+    {
+      "id": "3",
+      "userId": "4",
+      "vehicleId": "3",
+      "startDate": "2025-06-01",
+      "endDate": "2025-06-05",
+      "totalPrice": 560.00,
+      "status": "completed"
+    },
+    {
+      "id": "4",
+      "userId": "5",
+      "vehicleId": "4",
+      "startDate": "2025-06-11",
+      "endDate": "2025-06-13",
+      "totalPrice": 600.00,
+      "status": "active"
+    },
+    {
+      "id": "5",
+      "userId": "6",
+      "vehicleId": "5",
+      "startDate": "2025-05-28",
+      "endDate": "2025-05-30",
+      "totalPrice": 240.00,
+      "status": "completed"
+    },
+    {
+      "id": "6",
+      "userId": "2",
+      "vehicleId": "3",
+      "startDate": "2025-06-08",
+      "endDate": "2025-06-09",
+      "totalPrice": 280.00,
+      "status": "completed"
     }
   ]
 }
