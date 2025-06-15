@@ -14,14 +14,14 @@ export const Title = styled.h2`
 `;
 
 export const FormContainer = styled.form`
+	width: 80%;
 	display: flex;
 	flex-direction: column;
 	align-items: start;
-	width: 480px;
-	margin: 0 auto;
+	margin: 0 auto var(--spacing-24px);
 `;
 
-export const InputContainer = styled.div`
+export const InputGroup = styled.div`
 	display: flex;
 	flex-direction: column;
 `;
@@ -32,7 +32,6 @@ export const Label = styled.label`
 `;
 
 export const Input = styled.input`
-	width: 480px;
 	border: none;
 	border-radius: var(--radius-md);
 	background-color: var(--color-border-primary);
@@ -49,7 +48,7 @@ export const Button = styled.button`
 	padding: var(--spacing-8px);
 	border: none;
 	border-radius: var(--radius-md);
-	width: 100%;
+	width: 20%;
 	margin: var(--spacing-12px) 0;
 	cursor: pointer;
 `;
@@ -66,4 +65,24 @@ export const Link = styled.a`
 	color: var(--color-placheholder-input);
 	font-size: var(--font-size-14px);
 	cursor: pointer;
+`;
+
+export const FieldWrapper = styled.div`
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 16px;
+	border: 1px solid var(--color-border-primary);
+	border-radius: var(--radius-md);
+	padding: var(--spacing-12px);
+	margin: var(--spacing-8px) 0;
+`;
+
+export const Select = styled.select`
+	border: none;
+	border-radius: var(--radius-md);
+	background-color: var(--color-border-primary);
+	color: var(--color-text-primary);
+	padding:var(--spacing-12px);
+	outline: none;
 `;

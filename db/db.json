@@ -8,7 +8,8 @@
       "cpf": "12345678900",
       "password": "ADMIN123",
       "role": "ADMIN",
-      "salary": 3500.00,
+      "salary": 3500,
+      "country": "BR",
       "address": {
         "street": "Av. das Palmeiras",
         "number": "100",
@@ -22,18 +23,19 @@
       "id": "2",
       "fullName": "John Doe",
       "email": "john@email.com",
-      "phoneNumber": "51992200006",
+      "phoneNumber": "1215550006",
       "cpf": "98765432100",
       "password": "CLIENT123",
       "role": "EMP",
-      "salary": 2800.00,
+      "salary": 2800,
+      "country": "US",
       "address": {
-        "street": "Rua das Acácias",
+        "street": "123 Maple St",
         "number": "222",
-        "neighborhood": "Bela Vista",
-        "city": "Canoas",
-        "state": "RS",
-        "postalCode": "92000000"
+        "neighborhood": "Downtown",
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10001"
       }
     },
     {
@@ -44,7 +46,8 @@
       "cpf": "32165498700",
       "password": "USER",
       "role": "customer",
-      "salary": 4500.00,
+      "salary": 4500,
+      "country": "BR",
       "address": {
         "street": "Rua do Sol",
         "number": "77",
@@ -52,6 +55,439 @@
         "city": "São Leopoldo",
         "state": "RS",
         "postalCode": "93000000"
+      }
+    },
+    {
+      "id": "4",
+      "fullName": "Carlos Ramirez",
+      "email": "carlos.ramirez@email.com",
+      "phoneNumber": "541123456789",
+      "cpf": "11122233344",
+      "password": "PASS123",
+      "role": "EMP",
+      "salary": 3200,
+      "country": "AR",
+      "address": {
+        "street": "Calle Falsa 123",
+        "number": "10",
+        "neighborhood": "Palermo",
+        "city": "Buenos Aires",
+        "state": "C",
+        "postalCode": "1425"
+      }
+    },
+    {
+      "id": "5",
+      "fullName": "Maria Silva",
+      "email": "maria.silva@email.com",
+      "phoneNumber": "11987654321",
+      "cpf": "22233344455",
+      "password": "PASS456",
+      "role": "customer",
+      "salary": 2900,
+      "country": "BR",
+      "address": {
+        "street": "Rua das Flores",
+        "number": "45",
+        "neighborhood": "Jardim",
+        "city": "São Paulo",
+        "state": "SP",
+        "postalCode": "01001000"
+      }
+    },
+    {
+      "id": "6",
+      "fullName": "Michael Johnson",
+      "email": "michael.johnson@email.com",
+      "phoneNumber": "2135557890",
+      "cpf": "33344455566",
+      "password": "PASS789",
+      "role": "EMP",
+      "salary": 4000,
+      "country": "US",
+      "address": {
+        "street": "456 Elm St",
+        "number": "89",
+        "neighborhood": "Westside",
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90001"
+      }
+    },
+    {
+      "id": "7",
+      "fullName": "Ana Torres",
+      "email": "ana.torres@email.com",
+      "phoneNumber": "541987654321",
+      "cpf": "44455566677",
+      "password": "PASS101",
+      "role": "ADMIN",
+      "salary": 5000,
+      "country": "AR",
+      "address": {
+        "street": "Avenida Libertador",
+        "number": "300",
+        "neighborhood": "Recoleta",
+        "city": "Buenos Aires",
+        "state": "C",
+        "postalCode": "1428"
+      }
+    },
+    {
+      "id": "8",
+      "fullName": "Lucas Pereira",
+      "email": "lucas.pereira@email.com",
+      "phoneNumber": "31988776655",
+      "cpf": "55566677788",
+      "password": "PASS202",
+      "role": "customer",
+      "salary": 3500,
+      "country": "BR",
+      "address": {
+        "street": "Av. Brasil",
+        "number": "150",
+        "neighborhood": "Centro",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "postalCode": "30140000"
+      }
+    },
+    {
+      "id": "9",
+      "fullName": "James Smith",
+      "email": "james.smith@email.com",
+      "phoneNumber": "6175551234",
+      "cpf": "66677788899",
+      "password": "PASS303",
+      "role": "EMP",
+      "salary": 3800,
+      "country": "US",
+      "address": {
+        "street": "789 Pine St",
+        "number": "55",
+        "neighborhood": "Downtown",
+        "city": "Boston",
+        "state": "MA",
+        "postalCode": "02108"
+      }
+    },
+    {
+      "id": "10",
+      "fullName": "Gabriela Martinez",
+      "email": "gabriela.martinez@email.com",
+      "phoneNumber": "541223344556",
+      "cpf": "77788899900",
+      "password": "PASS404",
+      "role": "customer",
+      "salary": 4200,
+      "country": "AR",
+      "address": {
+        "street": "Calle San Martín",
+        "number": "200",
+        "neighborhood": "Centro",
+        "city": "Rosario",
+        "state": "SF",
+        "postalCode": "2000"
+      }
+    },
+    {
+      "id": "11",
+      "fullName": "Fernanda Souza",
+      "email": "fernanda.souza@email.com",
+      "phoneNumber": "21999887766",
+      "cpf": "88899900011",
+      "password": "PASS505",
+      "role": "EMP",
+      "salary": 3000,
+      "country": "BR",
+      "address": {
+        "street": "Rua Afonso Pena",
+        "number": "78",
+        "neighborhood": "Centro",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "postalCode": "20000000"
+      }
+    },
+    {
+      "id": "12",
+      "fullName": "Robert Brown",
+      "email": "robert.brown@email.com",
+      "phoneNumber": "3125556789",
+      "cpf": "99900011122",
+      "password": "PASS606",
+      "role": "ADMIN",
+      "salary": 5500,
+      "country": "US",
+      "address": {
+        "street": "321 Oak St",
+        "number": "150",
+        "neighborhood": "Midtown",
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60601"
+      }
+    },
+    {
+      "id": "13",
+      "fullName": "Sofia Lopez",
+      "email": "sofia.lopez@email.com",
+      "phoneNumber": "541334455667",
+      "cpf": "00011122233",
+      "password": "PASS707",
+      "role": "customer",
+      "salary": 3700,
+      "country": "AR",
+      "address": {
+        "street": "Avenida Córdoba",
+        "number": "123",
+        "neighborhood": "Centro",
+        "city": "Córdoba",
+        "state": "X",
+        "postalCode": "5000"
+      }
+    },
+    {
+      "id": "14",
+      "fullName": "Paulo Santos",
+      "email": "paulo.santos@email.com",
+      "phoneNumber": "51988776655",
+      "cpf": "11122233344",
+      "password": "PASS808",
+      "role": "EMP",
+      "salary": 3400,
+      "country": "BR",
+      "address": {
+        "street": "Rua das Laranjeiras",
+        "number": "10",
+        "neighborhood": "Centro",
+        "city": "Curitiba",
+        "state": "PR",
+        "postalCode": "80000000"
+      }
+    },
+    {
+      "id": "15",
+      "fullName": "William Clark",
+      "email": "william.clark@email.com",
+      "phoneNumber": "4045551234",
+      "cpf": "22233344455",
+      "password": "PASS909",
+      "role": "ADMIN",
+      "salary": 6000,
+      "country": "US",
+      "address": {
+        "street": "987 Birch St",
+        "number": "20",
+        "neighborhood": "Northside",
+        "city": "Atlanta",
+        "state": "GA",
+        "postalCode": "30301"
+      }
+    },
+    {
+      "id": "16",
+      "fullName": "Luciana Gomez",
+      "email": "luciana.gomez@email.com",
+      "phoneNumber": "541556677889",
+      "cpf": "33344455566",
+      "password": "PASS010",
+      "role": "customer",
+      "salary": 3900,
+      "country": "AR",
+      "address": {
+        "street": "Calle Mitre",
+        "number": "456",
+        "neighborhood": "Centro",
+        "city": "Mendoza",
+        "state": "M",
+        "postalCode": "5500"
+      }
+    },
+    {
+      "id": "17",
+      "fullName": "Rafael Almeida",
+      "email": "rafael.almeida@email.com",
+      "phoneNumber": "51991234567",
+      "cpf": "44455566677",
+      "password": "PASS111",
+      "role": "EMP",
+      "salary": 3100,
+      "country": "BR",
+      "address": {
+        "street": "Av. Brasil",
+        "number": "88",
+        "neighborhood": "Centro",
+        "city": "Porto Alegre",
+        "state": "RS",
+        "postalCode": "90000000"
+      }
+    },
+    {
+      "id": "18",
+      "fullName": "Emily Davis",
+      "email": "emily.davis@email.com",
+      "phoneNumber": "4155559876",
+      "cpf": "55566677788",
+      "password": "PASS212",
+      "role": "EMP",
+      "salary": 4200,
+      "country": "US",
+      "address": {
+        "street": "246 Spruce St",
+        "number": "33",
+        "neighborhood": "Downtown",
+        "city": "San Francisco",
+        "state": "CA",
+        "postalCode": "94102"
+      }
+    },
+    {
+      "id": "19",
+      "fullName": "Valentina Fernández",
+      "email": "valentina.fernandez@email.com",
+      "phoneNumber": "541667788990",
+      "cpf": "66677788899",
+      "password": "PASS313",
+      "role": "customer",
+      "salary": 3700,
+      "country": "AR",
+      "address": {
+        "street": "Avenida San Juan",
+        "number": "789",
+        "neighborhood": "Centro",
+        "city": "Salta",
+        "state": "A",
+        "postalCode": "4400"
+      }
+    },
+    {
+      "id": "20",
+      "fullName": "Thiago Oliveira",
+      "email": "thiago.oliveira@email.com",
+      "phoneNumber": "51987654321",
+      "cpf": "77788899900",
+      "password": "PASS414",
+      "role": "ADMIN",
+      "salary": 3600,
+      "country": "BR",
+      "address": {
+        "street": "Rua das Acácias",
+        "number": "77",
+        "neighborhood": "Bela Vista",
+        "city": "Canoas",
+        "state": "RS",
+        "postalCode": "92000000"
+      }
+    },
+    {
+      "id": "21",
+      "fullName": "Christopher Miller",
+      "email": "christopher.miller@email.com",
+      "phoneNumber": "3125554321",
+      "cpf": "88899900011",
+      "password": "PASS515",
+      "role": "EMP",
+      "salary": 4100,
+      "country": "US",
+      "address": {
+        "street": "123 Cedar St",
+        "number": "100",
+        "neighborhood": "Midtown",
+        "city": "Denver",
+        "state": "CO",
+        "postalCode": "80202"
+      }
+    },
+    {
+      "id": "22",
+      "fullName": "Lucia Martínez",
+      "email": "lucia.martinez@email.com",
+      "phoneNumber": "541778899001",
+      "cpf": "99900011122",
+      "password": "PASS616",
+      "role": "customer",
+      "salary": 3800,
+      "country": "AR",
+      "address": {
+        "street": "Calle Belgrano",
+        "number": "50",
+        "neighborhood": "Centro",
+        "city": "Tucumán",
+        "state": "T",
+        "postalCode": "4100"
+      }
+    },
+    {
+      "id": "23",
+      "fullName": "Paula Fernandes",
+      "email": "paula.fernandes@email.com",
+      "phoneNumber": "51998765432",
+      "cpf": "00011122233",
+      "password": "PASS717",
+      "role": "EMP",
+      "salary": 3500,
+      "country": "BR",
+      "address": {
+        "street": "Rua São João",
+        "number": "200",
+        "neighborhood": "Centro",
+        "city": "Florianópolis",
+        "state": "SC",
+        "postalCode": "88000000"
+      }
+    },
+    {
+      "id": "24",
+      "fullName": "Daniel Wilson",
+      "email": "daniel.wilson@email.com",
+      "phoneNumber": "4075559876",
+      "cpf": "11122233344",
+      "password": "PASS818",
+      "role": "ADMIN",
+      "salary": 6200,
+      "country": "US",
+      "address": {
+        "street": "789 Willow St",
+        "number": "75",
+        "neighborhood": "Northside",
+        "city": "Orlando",
+        "state": "FL",
+        "postalCode": "32801"
+      }
+    },
+    {
+      "id": "8f55",
+      "fullname": "Bruno Gomes",
+      "email": "bruno@email.com",
+      "phoneNumber": "51983363606",
+      "cpf": "00055534152",
+      "salary": "3500",
+      "password": "admin123",
+      "address": {
+        "street": "ABC",
+        "number": "143",
+        "neighborhood": "Nova Jersey",
+        "city": "Canoas",
+        "state": "RS",
+        "postalCode": "93224110"
+      }
+    },
+    {
+      "id": "65eb",
+      "fullname": "bruno gomes ",
+      "email": "bruno@email.com",
+      "phoneNumber": "5135848431",
+      "cpf": "51562002315",
+      "salary": "50017000",
+      "password": "admin",
+      "address": {
+        "street": "abc",
+        "number": "145",
+        "neighborhood": "nova jersey",
+        "city": "Imbé",
+        "state": "Rio Grande do Sul",
+        "postalCode": "98445230"
       }
     }
   ],
@@ -65,7 +501,7 @@
       "color": "black",
       "licensePlate": "ABC-1234",
       "status": "available",
-      "dailyRate": 150.00,
+      "dailyRate": 150,
       "imageUrl": "https://via.placeholder.com/300x200"
     },
     {
@@ -77,7 +513,7 @@
       "color": "white",
       "licensePlate": "XYZ-9876",
       "status": "available",
-      "dailyRate": 450.00,
+      "dailyRate": 450,
       "imageUrl": "https://via.placeholder.com/300x200"
     },
     {
@@ -89,7 +525,7 @@
       "color": "red",
       "licensePlate": "DEF-5678",
       "status": "available",
-      "dailyRate": 140.00,
+      "dailyRate": 140,
       "imageUrl": "https://via.placeholder.com/300x200"
     },
     {
@@ -101,7 +537,7 @@
       "color": "gray",
       "licensePlate": "GHI-9012",
       "status": "available",
-      "dailyRate": 300.00,
+      "dailyRate": 300,
       "imageUrl": "https://via.placeholder.com/300x200"
     },
     {
@@ -113,7 +549,7 @@
       "color": "blue",
       "licensePlate": "JKL-3456",
       "status": "available",
-      "dailyRate": 120.00,
+      "dailyRate": 120,
       "imageUrl": "https://via.placeholder.com/300x200"
     }
   ],
@@ -124,7 +560,7 @@
       "vehicleId": "1",
       "startDate": "2025-06-10",
       "endDate": "2025-06-12",
-      "totalPrice": 300.00,
+      "totalPrice": 300,
       "status": "active"
     },
     {
@@ -133,7 +569,7 @@
       "vehicleId": "2",
       "startDate": "2025-05-20",
       "endDate": "2025-05-22",
-      "totalPrice": 900.00,
+      "totalPrice": 900,
       "status": "completed"
     },
     {
@@ -142,7 +578,7 @@
       "vehicleId": "3",
       "startDate": "2025-06-01",
       "endDate": "2025-06-05",
-      "totalPrice": 560.00,
+      "totalPrice": 560,
       "status": "completed"
     },
     {
@@ -151,7 +587,7 @@
       "vehicleId": "4",
       "startDate": "2025-06-11",
       "endDate": "2025-06-13",
-      "totalPrice": 600.00,
+      "totalPrice": 600,
       "status": "active"
     },
     {
@@ -160,7 +596,7 @@
       "vehicleId": "5",
       "startDate": "2025-05-28",
       "endDate": "2025-05-30",
-      "totalPrice": 240.00,
+      "totalPrice": 240,
       "status": "completed"
     },
     {
@@ -169,7 +605,7 @@
       "vehicleId": "3",
       "startDate": "2025-06-08",
       "endDate": "2025-06-09",
-      "totalPrice": 280.00,
+      "totalPrice": 280,
       "status": "completed"
     }
   ]

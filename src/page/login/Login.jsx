@@ -17,7 +17,7 @@ const Login = () => {
 		);
 
 		if(foundUser) {
-			localStorage.setItem("user" , foundUser.fullName);
+			localStorage.setItem("user" , JSON.stringify(foundUser));
 			window.location.href = '/dashboard';
 		} else{
 			alert("Usuário ou senha inválidos.");

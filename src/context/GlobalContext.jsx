@@ -26,8 +26,13 @@ export const GlobalProvider = ({ children }) => {
 		.then(json => setRental(json));
 	}, [])
 
+	const logout = () => {
+		localStorage.removeItem("user");
+		window.location.href = "/";
+	}
+
 	return (
-		<GlobalContext.Provider value={{ users, vehicles, rentals }}>
+		<GlobalContext.Provider value={{ users, vehicles, rentals, logout }}>
 			{children}
 		</GlobalContext.Provider>
 	)
