@@ -7,7 +7,9 @@ import RecentActivity from './recent-activity/RecentActivity';
 
 const Dashboard = () => {
 	const { t } = useTranslation();
-	const firstName = localStorage.getItem("user")?.split(" ")[0];
+
+	const user = JSON.parse(localStorage.getItem("user" ) || '');
+	const firstName = user?.fullName?.split(" ")[0];
 
 	return (
 		<Styles.Container>
